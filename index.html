@@ -5,10 +5,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <!-- fontawesome -->
+    <script src="https://kit.fontawesome.com/b07a508bf3.js" crossorigin="anonymous"></script>
+    <title>Penguin Fashion</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        bg1: '#FFFBF0',
+                        buttonC: '#A4BC46',
+                        heading_text_color: '#FABE4C',
+                    }
+                }
+            }
+        }
+    </script>
 </head>
 
-<body>
+<body class="max-w-screen-2xl mx-auto">
+    <header class="bg-bg1 flex justify-center">
+        <section class="container sm:flex sm:items-center sm:justify-center ">
+            <div class="">
+                <div class="p-10">
+                    <div>
+                        <h1 class="text-3xl sm:text-3xl md:text-6xl font-bold mb-5"><span
+                                class="text-heading_text_color"> BE
+                                THE
+                                PENGUINS</span><br> OF WINTER
+                        </h1>
+                    </div>
+                    <div>
+                        <p class="mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit <br> . Laboriosam,
+                            labore.
+                        </p>
+                    </div>
+                    <div><button class="bg-buttonC py-5 px-8 rounded-lg text-white font-semibold"><i
+                                class="fa-solid fa-cart-shopping"></i> BUY
+                            NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class=" w-full p-5 sm:p-3 sm:w-full" src="images/model.png" alt="">
+            </div>
+        </section>
+    </header>
+
+    <main>
+        <section class="container">
+
+        </section>
+    </main>
 
 </body>
 
